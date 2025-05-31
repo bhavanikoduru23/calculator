@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=width-device, initial-scale=1.0">
+    <title>Calculator</title>
+    <style>
+      
+        .joy{
+            background-color: white;
+            width:23%;
+            height:460px;
+            border-radius: 11px;
+            left: 36%;
+            position:relative;
+            top: 120px;
+        }
+        body{
+            background-color:dodgerblue;
+        }
+        .ban{
+            width:27%;
+            height:33px;
+            border-radius: 11px;
+            top: 20px;
+            left: 4%;
+            position:relative;
+            background-color:whitesmoke;
+            position:relative; 
+        font-size:33px; 
+        padding:15px 25px 17px 170px;
+        font-weight:bold;
+        }
+        .box{
+           
+            width:99%;
+            top:4%;
+            height:81%;
+            left:2%;
+            position:relative;
+        }
+      .bo1{
+        top:5%;
+        background-color: yellow;
+        left:2%;
+        height:25px;
+        width:8%;
+        border-radius: 10px;  
+        position:relative; 
+        font-size:29px; 
+        padding:15px 15px 17px 19px;
+        font-weight:bold;
+      }
+      .bo2{
+        top:9%;
+        background-color: lightskyblue;
+        left:2%;
+        height:25px;
+        width:8%;
+        border-radius: 10px;  
+        position:relative; 
+        font-size:29px; 
+        padding:15px 15px 17px 19px;
+        font-weight:bold;
+      }
+      .bo3{
+        top:13%;
+        background-color: lightskyblue;
+        left:2%;
+        height:25px;
+        width:8%;
+        border-radius: 10px;  
+        position:relative; 
+        font-size:29px; 
+        padding:15px 15px 17px 19px;
+        font-weight:bold;
+      }
+      .bo4{
+        top:17%;
+        background-color: lightskyblue;
+        left:2%;
+        height:25px;
+        width:8%;
+        border-radius: 10px;  
+        position:relative; 
+        font-size:29px; 
+        padding:15px 15px 17px 19px;
+        font-weight:bold;
+      }
+      .bo5{
+        top:2%;
+        background-color: lightskyblue;
+        left:25%;
+        height:25px;
+        width:8%;
+        border-radius: 10px;  
+        position:relative; 
+        font-size:29px; 
+        padding:15px 15px 17px 19px;
+        font-weight:bold;
+      }
+      .bo6{
+        bottom:32.9%;
+        background-color: lightskyblue;
+        left:25%;
+        height:25px;
+        width:8%;
+        border-radius: 10px;  
+        position:relative; 
+        font-size:29px; 
+        padding:15px 15px 17px 19px;
+        font-weight:bold;
+      }
+      .bo7{
+        bottom:67.5%;
+        background-color: lightskyblue;
+        left:25%;
+        height:25px;
+        width:8%;
+        border-radius: 10px;  
+        position:relative; 
+        font-size:29px; 
+        padding:15px 15px 17px 19px;
+        font-weight:bold;
+      }
+      .bo8{
+        bottom:102%;
+        background-color: yellow;
+        left:25%;
+        height:25px;
+        width:8%;
+        border-radius: 10px;  
+        position:relative; 
+        font-size:29px; 
+        padding:12px 12px 19px 22px;
+        font-weight:bold;
+      }
+      .bo10{
+        bottom:64%;
+        background-color: lightskyblue;
+        left:48%;
+        height:25px;
+        width:8%;
+        border-radius: 10px;  
+        position:relative; 
+        font-size:29px; 
+        padding:15px 15px 17px 19px;
+        font-weight:bold;
+      }
+      .bo11{
+        bottom:99%;
+        background-color: lightskyblue;
+        left:48%;
+        height:25px;
+        width:8%;
+        border-radius: 10px;  
+        position:relative; 
+        font-size:29px; 
+        padding:15px 15px 17px 19px;
+        font-weight:bold;
+      }
+      .bo12{
+        bottom:134%;
+        background-color: lightskyblue;
+        left:48%;
+        height:25px;
+        width:8%;
+        border-radius: 10px;  
+        position:relative; 
+        font-size:29px; 
+        padding:15px 15px 17px 19px;
+        font-weight:bold;
+      }
+      .bo13{
+        bottom:168%;
+        background-color: yellow;
+        left:48%;
+        height:25px;
+        width:8%;
+        border-radius: 10px;  
+        position:relative; 
+        font-size:29px; 
+        padding:15px 15px 17px 19px;
+        font-weight:bold;
+      }
+      .bo14{
+        bottom:183%;
+        background-color: yellow;
+        left:73%;
+        height:25px;
+        width:8%;
+        border-radius: 10px;  
+        position:relative; 
+        font-size:29px; 
+        padding:15px 15px 17px 19px;
+        font-weight:bold;
+      }
+      .bo15{
+        bottom:180%;
+        background-color: lightskyblue;
+        left:73%;
+        height:25px;
+        width:8%;
+        border-radius: 10px;  
+        position:relative; 
+        font-size:29px; 
+        padding:15px 15px 17px 19px;
+        font-weight:bold;
+      }
+      .bo16{
+        bottom:175%;
+        background-color: lightskyblue;
+        left:73%;
+        height:25px;
+        width:8%;
+        border-radius: 10px;  
+        position:relative; 
+        font-size:29px; 
+        padding:15px 15px 17px 19px;
+        font-weight:bold;
+      }
+      .bo17{
+        bottom:170%;
+        background-color: lightcoral;
+        left:73%;
+        height:25px;
+        width:8%;
+        border-radius: 10px;  
+        position:relative; 
+        font-size:29px; 
+        padding:15px 15px 17px 19px;
+        font-weight:bold;
+      }
+      .bo18{
+        bottom:168%;
+        background-color: lightgreen;
+        left:2%;
+        height:25px;
+        width:16%;
+        border-radius: 10px;  
+        position:relative; 
+        font-size:29px; 
+        padding:15px 25px 19px 56px;
+        font-weight:bold;
+      }
+    </style>
+    <!-- padding:top right botom left -->
+</head>
+<body>
+    <div class="joy">
+        <div class="ban">5.6+1.2   </div>
+        <div class="box">
+            <div class="bo1">+</div>
+            <div class="bo2">7</div>
+            <div class="bo3">5</div>
+            <div class="bo4">3</div>
+            <div class="bo5">0</div>
+            <div class="bo6">6</div>
+            <div class="bo7">8</div>
+            <div class="bo8">-</div>
+            <div class="bo9">5</div>
+            <div class="bo10">.</div>
+            <div class="bo11">1</div>
+            <div class="bo12">9</div>
+            <div class="bo13">x</div>
+            <div class="bo14">÷</div>
+            <div class="bo15">4</div>
+            <div class="bo16">2</div>
+            <div class="bo17">C</div>
+            <div class="bo18">=</div>
+           
+
+        </div>
+     
+
+    </div>
+</body>
+</html>
